@@ -1,6 +1,8 @@
 rootProject.name = "jdp-course"
 
 include("hw01-gradle")
+include("hw01-gradle-api")
+include("hw01-gradle-api-use")
 
 pluginManagement {
     val jgitver: String by settings
@@ -25,3 +27,4 @@ pluginManagement {
         id("org.jboss.logging") version logging
     }
 }
+include("hw01-gradle-api-use")
