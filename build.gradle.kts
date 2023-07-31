@@ -23,7 +23,7 @@ idea {
 
 
 allprojects {
-    group = "ru.otus"
+    group = "dev.kotler"
 
     repositories {
         mavenLocal()
