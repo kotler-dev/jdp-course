@@ -5,6 +5,7 @@ include("hw01-gradle-api")
 include("hw01-gradle-api-use")
 include("hw01-gradle-api-use")
 include("hw03-qa")
+include("hw04-collections")
 
 pluginManagement {
     val jgitver: String by settings
