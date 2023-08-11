@@ -7,7 +7,6 @@ plugins {
 
 dependencies {
     implementation("org.jboss.logging:jboss-logging")
-    implementation("org.apache.commons:commons-text")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testImplementation("org.junit.jupiter:junit-jupiter-engine")
@@ -24,7 +23,7 @@ tasks {
         archiveClassifier.set("")
         mergeServiceFiles()
         manifest {
-            attributes(mapOf("Main-Class" to "dev.kotler.MainCatMap"))
+            attributes(mapOf("Main-Class" to "dev.kotler.catpack.MainCatMap"))
         }
     }
 }
